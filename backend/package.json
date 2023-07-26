@@ -1,0 +1,11 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "Yes This is my project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hitesh Kumar Meghwar",
+  "license": "ISC"
+}

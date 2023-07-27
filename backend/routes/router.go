@@ -1,16 +1,19 @@
 package routes
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"github.com/HiteshKumarMeghwar/L-M-S-2/controllers"
+	"github.com/gofiber/fiber/v2"
+)
 
 func Setup(app *fiber.App) {
 	// Login and registration routes ................
-	// app.Post("/api/register", controllers.Register)
+	app.Post("/api/register", controllers.Register)
 	// app.Post("/api/login", controllers.Login)
 
 	// Middleware for check user is Authenticated or not ...........
 	// app.Use(middleware.IsAuthenticate)
 
-	// // Post Controller routes ............
+	// // Post Controlxler routes ............
 	// app.Post("/api/createpost", controllers.CreatePost)
 	// app.Post("/api/allpost", controllers.AllPost)
 	// app.Get("/api/allpost/:id", controllers.DetailPost)
